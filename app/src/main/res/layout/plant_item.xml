@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Ширину Ресайклер вью сам сожмет -->
+<!-- Ширину Ресайклер вью сам сожмет элемент по ширине в зависимости от указанного количества элементов по горизонтали-->
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -31,7 +31,7 @@
             <ImageView
                 android:id="@+id/im"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 app:srcCompat="@drawable/plant1" />
 
             <TextView
